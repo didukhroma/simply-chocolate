@@ -1,0 +1,13 @@
+.menu__button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+
+@media not (hover: hover) {
+  .menu__button:active {
+    background-color: var(--cl-1-cl);
+  }
+}

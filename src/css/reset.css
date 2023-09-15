@@ -33,3 +33,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+* {
+  outline: 1px solid var(--cl-1-cl);
+}

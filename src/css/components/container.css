@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 736px) {
+  .container {
+    width: 736px;
+    padding: 0 16px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding: 0 32px;
+  }
+}

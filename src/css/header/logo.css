@@ -1,0 +1,13 @@
+.nav__logo {
+  font-weight: 700;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.nav__logo--accent {
+  font-style: italic;
+}
+.nav__logo--text {
+  margin-right: 4px;
+}
