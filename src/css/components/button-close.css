@@ -1,0 +1,27 @@
+.button-close {
+  position: relative;
+  margin: 0 0 88px auto;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.button-close::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transition: border-color var(--fast-transition);
+}
+@media not (hover: hover) {
+  .button-close:active::after {
+    border-color: var(--white-cl);
+  }
+}
+
+.button-close__icon {
+  stroke: var(--white-cl);
+}

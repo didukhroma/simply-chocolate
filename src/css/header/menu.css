@@ -1,0 +1,38 @@
+.menu__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(173, 172, 172, 0.507);
+  pointer-events: none;
+}
+
+.menu__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 220px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  background-color: var(--dark-bg-cl);
+}
+.menu__nav {
+  margin-bottom: auto;
+}
+.menu__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.menu__link {
+  color: var(--white-cl);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}

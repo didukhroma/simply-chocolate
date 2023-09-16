@@ -6,9 +6,13 @@
 */
 @import url('./reset.css');
 @import url('./vite-promo.css');
+/* components */
 @import url('./components/container.css');
 @import url('./components/centered.css');
 @import url('./components/menu_button.css');
+@import url('./components/button-close.css');
+@import url('./components/socials.css');
+/* layout */
 @import url('./header.css');
 @import url('./body.css');
 
@@ -29,5 +33,7 @@
   --accent-cl: #fd9222;
   --light-cl: #fafafa;
   --white-cl: #ffffff;
-  --undefined-cl:#fcf1e0;
+  --undefined-cl: #fcf1e0;
+
+  --fast-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

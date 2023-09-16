@@ -1,0 +1,16 @@
+.socials {
+  justify-content: flex-start;
+  gap: 14px;
+}
+.socials__item {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.socials__link {
+  padding: 0;
+}
+.socials__link:hover .socials__icon,
+.socials__link:focus .socials__icon {
+  color: var(--accent-cl);
+}
